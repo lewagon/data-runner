@@ -1,4 +1,4 @@
-FROM jupyter/datascience-notebook:1386e20468331
+FROM jupyter/datascience-notebook:latest
 LABEL maintainer="seb@lewagon.org"
 
 ENV LANG en_US.utf8
