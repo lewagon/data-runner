@@ -10,5 +10,5 @@ requests
 bs4
 pandas<1.4
 matplotlib
-numpy<1.22
+numpy<1.20
 scikit-learn<0.25
