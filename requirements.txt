@@ -1,5 +1,5 @@
 pytest
-pylint
+pylint<2.11
 ipdb
 pyyaml
 nbresult
@@ -8,7 +8,7 @@ flake8
 lxml
 requests
 bs4
-pandas==1.2
+pandas<1.4
 matplotlib
-numpy
-scikit-learn
+numpy<1.20
+scikit-learn<0.25
