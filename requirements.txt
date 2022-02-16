@@ -11,4 +11,5 @@ lxml
 numpy<1.20
 pandas<1.4
 matplotlib
+memoized-property
 scikit-learn
