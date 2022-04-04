@@ -13,3 +13,4 @@ pandas<1.4
 matplotlib
 memoized-property
 scikit-learn
+statsmodels
