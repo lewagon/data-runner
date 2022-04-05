@@ -14,3 +14,4 @@ matplotlib
 memoized-property
 scikit-learn
 statsmodels
+unidecode
