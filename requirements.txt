@@ -2,7 +2,7 @@ pytest
 pylint
 ipdb
 pyyaml
-nbresult
+nbresult>=0.0.7
 autopep8
 flake8
 lxml
