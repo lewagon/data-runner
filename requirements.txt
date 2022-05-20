@@ -1,6 +1,6 @@
 pytest
 pylint<2.11
-nbresult>=0.0.7
+nbresult>=0.0.8
 autopep8
 flake8
 ipdb
