@@ -6,6 +6,7 @@
 - update `requirements.txt` from [data-setup specs/releases/glovebox.txt](https://github.com/lewagon/data-setup/blob/master/specs/releases/glovebox.txt)
 - push branch and draft a new release, which triggers the `ghcr_publish_on_release_tag` GHA
 - update `data-solutions` glovebox image
+- update `active_admin` programs to use the image
 
 ## draft a release
 
@@ -25,6 +26,12 @@ gh release list --repo lewagon/data-runner
 
 [edit data-solutions/test-solutions-action/Dockerfile](https://github.com/lewagon/data-solutions/blob/master/test-solutions-action/Dockerfile):
 - replace `FROM ghcr.io/lewagon/data-runner:$TAG_NAME`
+
+## update `active_admin` programs to use the image
+
+[edit data program](https://kitt.lewagon.com/active_admin/programs/10/edit)
+- runner tag: use branch name
+- update program
 
 # files
 
