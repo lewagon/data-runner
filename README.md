@@ -12,8 +12,8 @@
 ## draft a `release`
 
 [draft a new release](https://github.com/lewagon/data-runner/releases):
-- choose a tag: use branch name (ignore branch/tag naming confusion warning) / create
-- release title: use branch name
+- choose a tag: use `${BRANCH_NAME}-v1` (ignore branch/tag naming confusion warning) / create
+- release title: use `${BRANCH_NAME}-v1`
 - description: ...
 - publish release
 
@@ -31,7 +31,7 @@ gh release list --repo lewagon/data-runner
 ## update `active_admin` programs to use the image
 
 [edit data program](https://kitt.lewagon.com/active_admin/programs/10/edit)
-- runner tag: use branch name
+- runner tag: use `${BRANCH_NAME}-v1`
 - update program
 
 # files
