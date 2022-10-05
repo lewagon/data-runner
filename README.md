@@ -26,12 +26,6 @@ gh release list --repo lewagon/data-runner
 [edit data-solutions/test-solutions-action/Dockerfile](https://github.com/lewagon/data-solutions/blob/master/test-solutions-action/Dockerfile):
 - replace `FROM ghcr.io/lewagon/data-runner:$TAG_NAME`
 
-# usage
-
-``` bash
-gh release list               # list releases
-```
-
 # files
 
 ``` bash
