@@ -15,6 +15,12 @@
 - description: ...
 - publish release
 
+## list container images
+
+``` bash
+gh release list --repo lewagon/data-runner
+```
+
 ## update data-solutions glovebox image
 
 [edit data-solutions/test-solutions-action/Dockerfile](https://github.com/lewagon/data-solutions/blob/master/test-solutions-action/Dockerfile):
