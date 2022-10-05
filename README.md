@@ -5,14 +5,20 @@
 - update `Dockerfile` source image python version
 - update `requirements.txt` from [data-setup specs/releases/glovebox.txt](https://github.com/lewagon/data-setup/blob/master/specs/releases/glovebox.txt)
 - push branch and draft a new release, which triggers the `ghcr_publish_on_release_tag` GHA
+- update `data-solutions` glovebox image
 
-# draft a release
+## draft a release
 
 [draft a new release](https://github.com/lewagon/data-runner/releases):
 - choose a tag: use branch name (ignore branch/tag naming confusion warning) / create
 - release title: use branch name
 - description: ...
 - publish release
+
+## update data-solutions glovebox image
+
+[edit data-solutions/test-solutions-action/Dockerfile](https://github.com/lewagon/data-solutions/blob/master/test-solutions-action/Dockerfile):
+- replace `FROM ghcr.io/lewagon/data-runner:$TAG_NAME`
 
 # usage
 
