@@ -6,6 +6,14 @@
 - update `requirements.txt` from [data-setup specs/releases/glovebox.txt](https://github.com/lewagon/data-setup/blob/master/specs/releases/glovebox.txt)
 - push branch and draft a new release, which triggers the `ghcr_publish_on_release_tag` GHA
 
+# draft a release
+
+[draft a new release](https://github.com/lewagon/data-runner/releases):
+- choose a tag: use branch name (ignore branch/tag naming confusion warning) / create
+- release title: use branch name
+- description: ...
+- publish release
+
 # usage
 
 ``` bash
