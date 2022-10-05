@@ -13,6 +13,7 @@
 
 [draft a new release](https://github.com/lewagon/data-runner/releases):
 - choose a tag: use `${BRANCH_NAME}-v1` (ignore branch/tag naming confusion warning) / create
+- choose a target: use `${BRANCH_NAME}`
 - release title: use `${BRANCH_NAME}-v1`
 - description: ...
 - publish release
