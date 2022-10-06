@@ -35,11 +35,26 @@ gh release list --repo lewagon/data-runner
 - runner tag: use `${BRANCH_NAME}-v1`
 - update program
 
+# release update
+
+- push branch
+- edit `release` (which triggers the `ghcr_publish_on_release_tag` GHA)
+- update `data-solutions` glovebox image
+- update `active_admin` programs to use the image
+
+## edit `release`
+
+[edit release](https://github.com/lewagon/data-runner/releases):
+- edit the release
+- choose a tag: `${BRANCH_NAME}-v2` / create
+- release title: `${BRANCH_NAME}-v2`
+- update release
+
 # files
 
 ``` bash
 .github/workflows/ghcr_publish_on_release_tag.yml           # publication GHA
-.github/workflows/ghcr_build_latest_on_push.yml             # useless (no push/merge on master)
+.github/workflows/ghcr_build_latest_on_push.yml             # unused ? (no push/merge on master)
 ```
 
 # source
