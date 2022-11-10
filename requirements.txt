@@ -8,8 +8,10 @@ requests
 beautifulsoup4
 PyYAML
 lxml
-numpy<1.20
-pandas<1.4
+# numpy<1.20
+numpy==1.23.3
+# pandas<1.4
+pandas==1.4.4
 matplotlib
 memoized-property
 scikit-learn
