@@ -13,6 +13,7 @@ dill==0.3.6
 executing==1.1.1
 flake8==4.0.1
 fonttools==4.38.0
+h5py==3.10.0
 idna==3.4
 iniconfig==1.1.1
 ipdb==0.13.9
@@ -57,6 +58,7 @@ setuptools-scm==6.4.2
 six==1.16.0
 soupsieve==2.3.2.post1
 stack-data==0.5.1
+tensorflow-cpu==2.10.0
 threadpoolctl==3.1.0
 toml==0.10.2
 tomli==2.0.1
