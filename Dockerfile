@@ -1,4 +1,4 @@
-FROM python:3.10.6-slim-buster
+FROM python:3.12.9-slim-bookworm
 
 # data-solutions gha works without this, but the glovebox code validation fails
 RUN apt-get update && apt-get install -y --no-install-recommends make curl
