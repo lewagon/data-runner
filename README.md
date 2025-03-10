@@ -49,4 +49,4 @@ TODO [edit data-solutions/test-solutions-action/Dockerfile](https://github.com/l
 
 # source
 
-requirements.txt    [data-setup specs/releases/past/2022_Q4/glovebox.txt](https://github.com/lewagon/data-setup/blob/setup-2022-q4/specs/releases/past/2022_Q4/glovebox.txt)
+requirements.txt    [data-setup specs/releases/glovebox.txt](https://github.com/lewagon/data-setup/blob/master/specs/releases/glovebox.txt)
